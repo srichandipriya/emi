@@ -1,0 +1,5 @@
+p=int(input("enter principle amount:"))
+si=int(input("enter si amount"))
+t=int(input("enter total number of months"))
+emi=(si+p)/t*12
+print("emi",emi)
